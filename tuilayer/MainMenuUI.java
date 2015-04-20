@@ -1,6 +1,7 @@
 package tuilayer;
 import controllerlayer.*;
 import modellayer.*;
+
 import java.util.Scanner;
 
 /**
@@ -15,6 +16,12 @@ public class MainMenuUI
     private DvdCtr dCtr;
     private PersonCtr pCtr;
     private LoanCtr loanCtr;
+    
+    public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		new MainMenuUI();
+
+	}
 
     /**
      * Constructor for objects of class MainMenuUI
@@ -23,7 +30,7 @@ public class MainMenuUI
     {
         pCtr = new PersonCtr();
         dCtr = new DvdCtr();
-        //mainMenu();
+        mainMenu();
     }
 
     /**
